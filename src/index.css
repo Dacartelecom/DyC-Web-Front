@@ -1,0 +1,17 @@
+:root {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #d8dcdd, #b3c2ce);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #d8dcdd, #b3c2ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ /* background-color: rgb(226, 225, 225);*/
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  color: #000000;
+}

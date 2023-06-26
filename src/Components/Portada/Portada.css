@@ -1,0 +1,49 @@
+.ContenedorP{
+  width: 100%;
+  display: flex;
+  color: black;
+  background-color: transparent;
+  margin: 0 11% 0 0;
+}
+.imagenP{
+  width: 80%;
+  margin: 0 -41% 0 0;
+}
+.textoP{
+  margin: 8% 5% 2% 21%;
+  text-align: left;
+  font-size: 1.7em;
+}
+.textoP h1{
+  margin-left: -20%;
+  margin-top: -2%;
+}
+.textoP p{
+  margin-left: -21%;
+  margin-top: 3%;
+}
+
+/* Estilos para pantallas medianas */
+@media only screen and (max-width: 768px) {
+  .ContenedorP{
+      display: block;
+  }
+.imagenP {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 1%;
+}
+.textoP {
+  text-align: center;
+  margin: -9% 9% 0 9%;
+  font-size: 1em;
+  cursor: pointer;
+}
+.textoP h1 {
+  margin-left: 0;
+}
+.textoP p {
+  margin-left: 0;
+}
+}
+

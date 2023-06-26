@@ -1,0 +1,21 @@
+.Components{
+  position: relative;
+}
+.ImagenL{
+  width: 15em; 
+  margin-right: -50%;
+  margin-left: 27%;
+  margin-top: 2.2em;  
+}
+.ImagenL:hover {
+  transform: scale(1.1);
+}
+@media (min-width: 768px) {
+  .ImagenL{
+     position: absolute;
+      width: 15em;
+      z-index: 1;
+      margin-left: -0.1%;
+  }
+
+}

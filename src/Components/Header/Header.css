@@ -1,0 +1,94 @@
+.contenedorH{
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+}
+.navbar-menu{
+  display: block;
+  margin-left: 3%;
+}
+.navbar-item {
+margin: 1em 1em;
+}
+.ImagenH{
+  width: 15em;
+  opacity: 0;
+}  
+.navbar-link {
+text-decoration: none;
+color: #000000;
+}
+.navbar-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-link:hover::after {
+  text-decoration: none;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 0.1em;
+  background-color: #000000;
+  animation: underline 0.2s forwards;
+}
+@keyframes underline {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (min-width: 768px) {
+
+.contenedorH{
+  font-size: 2em;
+}
+
+.navbar-menu {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+float: right;
+}
+
+.navbar-item {
+margin: 1.9em 1em;
+
+}
+
+.navbar-link {
+text-decoration: none;
+color: #000000;
+
+}
+.navbar-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-link:hover::after {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 0.1em;
+  background-color: #000000;
+  animation: underline 0.2s forwards;
+}
+
+@keyframes underline {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+}

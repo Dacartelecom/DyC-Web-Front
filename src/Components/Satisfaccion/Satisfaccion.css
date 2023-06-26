@@ -1,0 +1,108 @@
+.contenedor{
+  margin-top: 1vw;
+  color: black;
+  background-color: transparent;
+  margin-bottom: 1vw;
+  text-align: center;
+}
+.tituloS{
+  text-align: center;
+}
+.SatisfaccionS{
+display: flex;
+margin: 1% 15%;
+font-size: 1.8em;
+
+}
+.contenidoS{
+  font-size: 0.7em;
+  text-align: justify;
+}
+video {
+  margin: 1em;
+  width: 21em;
+  border-radius: 60%  10%  60%  10%;
+}
+.imgS{
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin-right: 1%;
+}
+.CardS{
+  margin: 2.6em;
+  display: flex;
+}
+.DatosS{
+  display: block;
+}
+.NombreS{
+  color: black;
+  margin: 0;
+}
+.CargoS{
+  font-size: 0.5em;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  .contenedor{
+    margin-top: 1vw;
+  font-size: 0.5em;
+
+  }
+  
+  .tituloS{
+    text-align: center;
+  }
+  
+  .SatisfaccionS{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 5%;
+
+  }
+  
+  .contenidoS{
+    font-size: 1.5em;
+  }
+  
+  video {
+    margin: 2vw auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 60% 10% 60% 10%;
+  }
+  
+  .imgS{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin-right: 1%;
+  }
+  
+  .CardS{
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .DatosS{
+    display: block;
+    margin-left: 1em;
+    text-align: left;
+  }
+  
+  .NombreS{
+    color: black;
+    margin: 0;
+  font-size: 1.5em;
+
+  }
+  
+  .CargoS{
+    margin: 0;
+  font-size: 1em;
+
+  }
+}
